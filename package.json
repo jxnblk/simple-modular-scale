@@ -1,0 +1,19 @@
+{
+  "name": "simple-modular-scale",
+  "version": "1.0.0",
+  "description": "Modular scale function based on an array of factors",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "keywords": [
+    "design",
+    "math",
+    "modular-scale"
+  ],
+  "author": "Brent Jackson",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  }
+}
