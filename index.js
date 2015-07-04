@@ -1,6 +1,7 @@
 
 module.exports = function (opts) {
 
+  var opts = opts || {}
   var base = opts.base || 16
   var factors = opts.factors || [1.5, 4/3]
   var length = opts.length || 16
