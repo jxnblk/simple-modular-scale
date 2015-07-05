@@ -25,10 +25,14 @@ var scale = ms({
 - `ratios` is an array of numbers that are multiplied by the previous number in the sequence. Ratios are alternated to create a sort of multi-stranded modular scale.
 - `length` is the total number of values output.
 
-## Example
+## Examples
+
+### Multiple Ratios
 
 ```js
-var ms = require('simple-modular-scale', {
+var ms = require('simple-modular-scale')
+
+var scale = ms({
   base: 16,
   ratios: [ 9/8, 4/3, 4/3 ],
   length: 8
